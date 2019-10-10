@@ -1,2 +1,2 @@
 # wpf-QrCoder
-wpf app for generating qr code, using fluent design.
+wpf app for generating Qr code, using Fluent design.
