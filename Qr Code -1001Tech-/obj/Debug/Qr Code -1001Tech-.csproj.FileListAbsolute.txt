@@ -1,0 +1,28 @@
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\MainWindow.g.cs
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\App.g.cs
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-_MarkupCompile.cache
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-_MarkupCompile.lref
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\Qr Code -1001Tech-.exe.config
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\Qr Code -1001Tech-.exe
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\Qr Code -1001Tech-.pdb
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\ColorPickerWPF.dll
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\FluentWPF.dll
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\QRCoder.dll
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\System.Drawing.Common.dll
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\WriteableBitmapEx.Wpf.dll
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\WriteableBitmapEx.Wpf.pdb
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\WriteableBitmapEx.Wpf.xml
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\App.baml
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\MainWindow.baml
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-.g.resources
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr_Code__1001Tech_.Properties.Resources.resources
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-.csproj.GenerateResource.cache
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-.csproj.CoreCompileInputs.cache
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-.csproj.CopyComplete
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-.exe
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-.pdb
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\obj\Debug\Qr Code -1001Tech-.csprojAssemblyReference.cache
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\QR-Preview.exe
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\QR-Preview.pdb
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\QR-Preview.exe.config
+C:\Users\Sami Paradox\source\repos\Qr Code -1001Tech-\Qr Code -1001Tech-\bin\Debug\MaterialSkin.dll

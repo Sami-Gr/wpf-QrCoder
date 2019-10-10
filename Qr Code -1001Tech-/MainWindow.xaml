@@ -1,0 +1,80 @@
+﻿<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" 
+        xmlns:local="clr-namespace:Qr_Code__1001Tech_"
+        mc:Ignorable="d"
+        x:Class="Qr_Code__1001Tech_.MainWindow"
+        fw:AcrylicWindow.Enabled="True" fw:AcrylicWindow.ExtendViewIntoTitleBar="True" fw:AcrylicWindow.FallbackColor="Transparent"  fw:AcrylicWindow.NoiseOpacity="0.00001"  fw:AcrylicWindow.TintOpacity="0.2"
+        Title="QR Code | 1001Tech" Height="474.472" Width="849.837" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" MinWidth="849.837" MinHeight="474.472" Icon="2639895-256.ico">
+
+    <ScrollViewer  VerticalScrollBarVisibility="Auto" SnapsToDevicePixels="True" Opacity="0.93">
+        <Grid>
+            <Grid  fw:PointerTracker.Enabled="True" x:Name="settingsgrid" HorizontalAlignment="Right" Width="242" Background="#43000000">
+
+                <StackPanel x:Name="stackgrid">
+                    <Label x:Name="sttlbl" Content="Settings" HorizontalAlignment="Center" Height="29" Margin="44,10,0,0" Width="87" VerticalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
+                    <Label x:Name="ecclabel" Content="ECC Level" Height="31" Margin="18,10,113,0" VerticalAlignment="Top" FontStyle="Italic" Foreground="White"/>
+                    <ComboBox x:Name="ecclevelbox" SelectedValuePath="Content" SelectedIndex="0" Height="22" Margin="20,8,20,0" VerticalAlignment="Center" Foreground="#FF191919" SelectionChanged="ecclevelbox_SelectionChanged" HorizontalAlignment="Center" Width="202">
+                        <ComboBox.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                                <GradientStop Color="#CC0F0E0E" Offset="1"/>
+                            </LinearGradientBrush>
+                        </ComboBox.Background>
+                        <ComboBoxItem Content="L"/>
+                        <ComboBoxItem Content="M"/>
+                        <ComboBoxItem Content="Q"/>
+                        <ComboBoxItem Content="H"/>
+                    </ComboBox>
+                    <Button x:Name="foregroundpick" Style="{StaticResource ButtonRevealStyle}" Content="Qr Code color" Height="28"  VerticalAlignment="Top" Margin="0,15,41,0" HorizontalAlignment="Right" Width="153" Click="foregroundpick_Click" Foreground="White" Background="#80000000"/>
+                    <Button x:Name="backgroundpick" Style="{StaticResource ButtonRevealStyle}" Content="Qr Code Background color" Height="28"  VerticalAlignment="Top" Margin="0,15,41,0" HorizontalAlignment="Right" Width="153" Click="backgroundpick_Click" Foreground="#FF1D1B1B" Background="#80F5F1F1"/>
+                    <Button x:Name="addicn" Style="{StaticResource ButtonRevealStyle}" Content="Add logo/image" Height="28"  VerticalAlignment="Top" Margin="0,15,41,0" HorizontalAlignment="Right" Width="153" Click="addicn_Click" Foreground="White"/>
+                    <Label x:Name="iconpath" Content="&gt;Icon:\\..." HorizontalAlignment="Center" Height="30" Margin="2,15,0,0" VerticalAlignment="Center" Width="222" FontSize="10" Foreground="#FFFDFDFD"/>
+                    <Label x:Name="lnglbl" Height="26" Margin="18,1,23,0" Content="Display Language:" Foreground="White"/>
+                    <ComboBox x:Name="lng" SelectedValuePath="Content" SelectedIndex="0" Height="22" Margin="20,10,23,0" VerticalAlignment="Center" Foreground="#FF191919" Background="{x:Null}" SelectionChanged="lng_SelectionChanged" HorizontalAlignment="Center" Width="199">
+                        <ComboBoxItem Content="English"/>
+                        <ComboBoxItem Content="Français"/>
+                        <ComboBoxItem Content="عربية"/>
+                        <ComboBoxItem Content="русский"/>
+                        <ComboBoxItem Content="中国"/>
+                    </ComboBox>
+                    <Button x:Name="grp" Style="{StaticResource ButtonRevealStyle}" Content="1001Tech FB Group" HorizontalAlignment="Center" Height="28" VerticalAlignment="Center" Margin="30.5,15,30.5,0" Width="181" Background="#A52329A6" Foreground="#FFF3F1F1" Click="grp_Click"/>
+                    <Button x:Name="love" ToolTip="Instagram account" Style="{StaticResource ButtonRevealStyle}" Content="made with ❤ by: @sami.gr" HorizontalAlignment="Center" Height="28" VerticalAlignment="Center" Margin="0,12,0,0" Width="181" Click="love_Click" Background="#80808080"/>
+                    
+
+                </StackPanel>
+
+
+            </Grid>
+            <Grid x:Name="contentgrid" fw:PointerTracker.Enabled="True" Margin="0,0,247,0">
+                <TextBox x:Name="input" Margin="115,50,86,0" TextWrapping="Wrap" Text="Your text/URL here..." Height="27" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" TextChanged="input_TextChanged"/>
+                <Label x:Name="contentlabel" Content="Content:" Height="32" Margin="15,48,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="81" FontSize="14" FontWeight="Bold" Foreground="White"/>
+                <Button x:Name="generate" Content="Generate" Style="{StaticResource ButtonRevealStyle}" Height="22" Margin="152,96,124,0" VerticalAlignment="Top" Click="Button_Click"/>
+                <StackPanel Margin="10,146,0,23" Orientation="Vertical">
+                    <Label x:Name="t1" Content="ECC (Error Correction Capability) level?" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="390" Foreground="White" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-0.021"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Label.RenderTransform>
+                    </Label>
+                    <Label x:Name="t2" Content="This compensates for dirt, damage or fuzziness of the code. " HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="480" Foreground="White"/>
+                    <Label x:Name="t3" Content="Valid values are 'L' (low ECC), 'M', 'Q', 'H' (highest ECC). " HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="480" Foreground="White"/>
+                    <Label x:Name="t4" Content="A high ECC level adds more redundancy at the cost of using more space. " HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="585" Foreground="White"/>
+                    <Label x:Name="t5" Content="A damaged QR code can be restored based on the ECC level:" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="480" Foreground="White"/>
+                    <Label x:Name="t6" Content="level 'L' - about 7% " HorizontalAlignment="Left" Height="26" Margin="54,0,0,0" VerticalAlignment="Top" Width="370" Foreground="White"/>
+                    <Label x:Name="t7" Content="level 'M' - about 15% " HorizontalAlignment="Left" Height="28" Margin="54,0,0,0" VerticalAlignment="Top" Width="370" Foreground="White"/>
+                    <Label x:Name="t8" Content="level 'Q' - about 25%" HorizontalAlignment="Left" Height="27" Margin="54,0,0,0" VerticalAlignment="Top" Width="370" Foreground="White"/>
+                    <Label x:Name="t9" Content="level 'H' - about 30% " HorizontalAlignment="Left" Height="29" Margin="54,0,0,0" VerticalAlignment="Top" Width="370" Foreground="White"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Window>
